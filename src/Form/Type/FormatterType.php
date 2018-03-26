@@ -11,9 +11,9 @@
 
 namespace Sonata\FormatterBundle\Form\Type;
 
-use Ivory\CKEditorBundle\Model\ConfigManagerInterface;
-use Ivory\CKEditorBundle\Model\PluginManagerInterface;
-use Ivory\CKEditorBundle\Model\TemplateManagerInterface;
+use Hillrange\CKEditor\Util\ConfigManagerInterface;
+use Hillrange\CKEditor\Util\PluginManagerInterface;
+use Hillrange\CKEditor\Util\TemplateManagerInterface;
 use Sonata\FormatterBundle\Form\EventListener\FormatterListener;
 use Sonata\FormatterBundle\Formatter\Pool;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
