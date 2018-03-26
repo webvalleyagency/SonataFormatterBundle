@@ -30,7 +30,7 @@ class SonataFormatterBundle extends Bundle
     public function registerFormMapping()
     {
         FormHelper::registerFormTypeMapping([
-            'ckeditor' => 'Ivory\CKEditorBundle\Form\Type\CKEditorType',
+            'ckeditor' => 'Hillrange\CKEditor\Util\Form\CKEditorType',
             'sonata_formatter_type' => 'Sonata\FormatterBundle\Form\Type\FormatterType',
             'sonata_simple_formatter_type' => 'Sonata\FormatterBundle\Form\Type\SimpleFormatterType',
         ]);
